@@ -39,8 +39,14 @@ alert('Ваш бюджет на 1 день' + yourBudget/30);*/
 		for (; i < 5; i++)
 			alert( i !== 5 )*/
 
-			/*	while (i < 5) {
-			i++;
+			/*		while (n < 5) {
+					  n++;
+					}*/
+
+			/*	do {
+		  		i = i + 1;
+		  		result = result + i;
+					} while (i < 5);
 		}*/
 		
 
