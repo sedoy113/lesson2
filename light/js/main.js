@@ -54,7 +54,9 @@ alert('Ваш бюджет на 1 день' + yourBudget/30);*/
 			mainList.shopGoods[i] = a;					
 					
 		} else  if(!a) { 
+			i--;
 				 	alert('Введите товар!');
+
 			}
 		
 	}
