@@ -53,7 +53,7 @@ alert('Ваш бюджет на 1 день' + yourBudget/30);*/
 		if ((typeof(a)) === 'string'  &&  (typeof(a)) !== null && a != '' && a.length < 50 ) {
 			mainList.shopGoods[i] = a;					
 					
-		} else  { 
+		} else  if(!a) { 
 				 	alert('Введите товар!');
 			}
 		
