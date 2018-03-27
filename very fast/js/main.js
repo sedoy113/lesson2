@@ -10,3 +10,7 @@ document.writeln(  week[4] + '<b>' + '<br>' );
 document.writeln(  week[5] + '<br>');
 document.writeln(  week[6] );
 
+
+var arr = ['33333333', '44444', '8888', '77777777', '222222', '9999', '33333'];
+const result = arr.filter(arr => arr.length > 7);
+console.log(result);
